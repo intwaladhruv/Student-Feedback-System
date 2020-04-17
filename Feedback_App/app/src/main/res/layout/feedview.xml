@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Feedview">
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAppearance="@style/Widget.AppCompat.ActionBar.Solid"
+        android:textAlignment="center"
+        android:textSize= "20sp"/>
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_below="@id/code"/>
+
+    <TextView
+        android:id="@+id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/scode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sname"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scode"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/nve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pve"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/ts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nve"
+        android:textSize="20sp" />
+</RelativeLayout>
